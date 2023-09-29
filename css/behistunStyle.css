@@ -12,13 +12,31 @@
     color: rebeccapurple;
     text-align: center;
     height: 100px;
-    background-image: url("img/rock.jpg");
+    background-image: url("../img/rock.jpg");
     background-position: center;
     background-size: contain;
     background-color: khaki;
 }
 
-.welcome {
+body {
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+nav ul {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.welcome {
+    padding-top: 20px;
     text-align: center;
 }
